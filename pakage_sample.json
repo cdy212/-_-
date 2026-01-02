@@ -1,0 +1,42 @@
+{
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "1.23.1",
+    "@react-native/gradle-plugin": "0.75.1",
+    "@react-navigation/native": "^7.0.14",
+    "@react-navigation/native-stack": "^7.2.0",
+    "eas-cli": "^16.17.4",
+    "expo": "~52.0.47",
+    "expo-asset": "~11.0.5",
+    "expo-build-properties": "~0.13.3",
+    "expo-constants": "~17.0.8",
+    "expo-dev-client": "~5.0.20",
+    "expo-linking": "~7.0.5",
+    "expo-router": "~4.0.21",
+    "expo-splash-screen": "~0.29.24",
+    "expo-updates": "~0.27.4",
+    "expo-video": "~2.0.6",
+    "korean-random-words": "^1.0.3",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "react-native": "0.76.9",
+    "react-native-animatable": "^1.4.0",
+    "react-native-edge-to-edge": "^1.4.3",
+    "react-native-reanimated": "~3.16.1",
+    "react-native-safe-area-context": "4.12.0",
+    "react-native-screens": "~4.4.0",
+    "react-native-web": "~0.19.6"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.19.3"
+  },
+  "name": "happytuk-jogong-app",
+  "newArchEnabled": true,
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "expo start",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
+    "web": "expo start --web -c"
+  }
+}

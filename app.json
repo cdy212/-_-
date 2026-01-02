@@ -1,0 +1,82 @@
+{
+  "expo": {
+    "name": "대만한인회",
+    "scheme": "koreaTaiwan",
+    "splash": {
+      "image": "./assets/splash_icon_mark.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#fffffb"
+    },
+    "plugins": [
+      [
+        "@react-native-seoul/naver-login",
+        {
+          "urlScheme": "koreataiwan" 
+        }
+      ],[
+        "@react-native-google-signin/google-signin",
+        {
+          "webClientId": "331739821804-82eobrek98d3hro3f2do6vnebut8qto7.apps.googleusercontent.com",
+          "iosUrlScheme": "com.googleusercontent.apps.YOUR_IOS_CLIENT_ID"
+        }
+      ],
+      [
+        "@react-native-kakao/core",
+        {
+          "nativeAppKey": "2b88972754fcc2cc2979de57713cff6b"
+        }
+      ],
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#232323",
+          "image": "./assets/splash_icon_mark.png",
+          "dark": {
+            "image": "./assets/splash_icon_mark.png",
+            "backgroundColor": "#000000"
+          },
+          "imageWidth": 200
+        }
+      ],
+      [
+        "expo-video",
+        {
+          "supportsBackgroundPlayback": true,
+          "supportsPictureInPicture": true
+        }
+      ],
+      "expo-asset",
+      "expo-router",
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "usesCleartextTraffic": true,
+            "compileSdkVersion": 35,
+            "targetSdkVersion": 35,
+            "buildToolsVersion": "35.0.0"
+          },
+          "ios": {
+            "deploymentTarget": "15.1"
+          }
+        }
+      ],
+      "expo-web-browser"
+    ],
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "a68a4ae8-9eb5-4cbf-b4ff-f5ced24ffa33"
+      }
+    },
+    "android": {
+      "package": "com.lee21137.happytukjogongapp",
+      "versionCode": 5
+    },
+    "ios": {
+      "bundleIdentifier": "com.lee21137.happytukjogongapp"
+    }
+  }
+}

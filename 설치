@@ -1,0 +1,29 @@
+/*
+# 웹버전 페이지 리로등
+base::https://github.com/chriscoomber/expo-52-splash-screen-repro.git/
+
+1.yarn add @expo/metro-runtime
+2. import '@expo/metro-runtime';
+3. npx expo start --web -c
+
+4. Restart the Development Server
+*/
+
+/** 라우터 expo 52
+ * https://stackoverflow.com/questions/79331397/how-to-migrate-from-expo-router-to-react-navigation
+ *
+
+
+
+✔️ navigation.navigate 사용 사례
+
+주로 스택 내의 화면 전환에 사용된다.
+동일한 화면을 여러 번 중복해서 스택에 쌓지 않아야 할 때 사용된다.
+이전 화면으로 돌아갈 때 주로 사용됩니다. (navigation.goBack() 또는 navigation.pop()와 함께 사용)
+
+✔️ navigation.push 사용 사례
+같은 화면을 여러 번 중복해서 스택에 쌓아야 할 때 사용된다.
+동일한 화면에 다른 데이터나 상태를 전달하여 여러 인스턴스를 표시해야 할 때 유용하다. 예를 들어, 게시물 목록 화면에서 각 게시물에 대한 상세 정보를 동일한 게시물 상세 화면으로 여러 번 열어야 할 때 navigation.push를 사용할 수 있
+
+
+*/
